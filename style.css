@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 :root {
   font-family: "Alice", serif;
   line-height: 150%;
@@ -20,19 +25,31 @@ img {
   border-radius: 16px;
 }
 
+main {
+  padding: 24px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
 h1 {
   font-size: 48px;
   color: #522a27;
+  margin-bottom: 32px;
+  margin-top: 8px;
 }
 
 h2 {
   font-size: 24px;
   color: #522a27;
+  margin-bottom: 16px;
 }
 
 h3 {
   font-size: 24px;
   color: #522a27;
+  margin-bottom: 16px;
 }
 
 p {
@@ -43,4 +60,12 @@ p {
 li {
   font-size: 16px;
   color: #522a27;
+  margin-left: 24px;
+}
+
+#Notas p {
+  background-color: #522a27;
+  padding: 16px;
+  border-radius: 16px;
+  color: #fcf6bd;
 }
