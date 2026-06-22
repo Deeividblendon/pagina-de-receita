@@ -1,3 +1,16 @@
+body {
+  background-color: #5d8f58;
+}
+
+#page {
+  background-color: #fcf6bd;
+  padding: 24px;
+  width: 800px;
+  border-radius: 24px;
+  margin: 48px auto;
+  box-sizing: border-box;
+}
+
 img {
   border-radius: 16px;
 }
